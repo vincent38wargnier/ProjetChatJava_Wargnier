@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="442.0" y="238.0">share.CreateAccountSuccess</node>
+    <node x="0.0" y="0.0">share.AddContentToTopicSucceded</node>
+    <node x="413.0" y="335.0">share.AuthenticationFailed</node>
+    <node x="232.0" y="238.0">share.CreateTopicSuccessed</node>
+    <node x="0.0" y="238.0">share.AddContentToTopicFailed</node>
+    <node x="0.0" y="119.0">share.AuthenticationSuccessed</node>
+    <node x="397.0" y="432.0">share.CreateTopicDenied</node>
+    <node x="473.0" y="-14.0">share.FindTopicRequest</node>
+    <node x="0.0" y="529.0">share.FindTopicFailed</node>
+    <node x="209.0" y="335.0">share.UpdateTopicRequest</node>
+    <node x="224.0" y="119.0">share.CreateAccountRequest</node>
+    <node x="0.0" y="335.0">share.CreateAccountDenied</node>
+    <node x="0.0" y="432.0">share.CreateTopicRequest</node>
+    <node x="199.0" y="432.0">share.FindTopicSuccessed</node>
+    <node x="251.0" y="0.0">share.AddContentToTopicRequest</node>
+    <node x="437.0" y="119.0">share.AuthenticationRequest</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="432.0" y="329.0" />
+  <SelectedNodes>
+    <node>share.FindTopicRequest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

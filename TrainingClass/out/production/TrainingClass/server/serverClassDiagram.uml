@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-536.0" y="283.0">server.Server</node>
+    <node x="0.0" y="345.0">server.ClientListener</node>
+    <node x="114.70000000000003" y="578.0">server.ClientHandler</node>
+    <node x="194.0" y="0.0">server.DataBase</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="server.ClientHandler" target="server.Server">
+      <point x="-1.4210854715202004E-14" y="-103.5" />
+      <point x="-90.8" y="103.5" />
+    </edge>
+    <edge source="server.Server" target="server.DataBase">
+      <point x="-2.8421709430404007E-14" y="-103.5" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="server.Server" target="server.ClientHandler">
+      <point x="2.8421709430404007E-14" y="103.5" />
+      <point x="318.50000000000006" y="538.0" />
+      <point x="277.9222222222223" y="538.0" />
+      <point x="50.22222222222223" y="-103.5" />
+    </edge>
+    <edge source="server.ClientListener" target="server.ClientHandler">
+      <point x="69.375" y="59.5" />
+      <point x="161.875" y="528.0" />
+      <point x="202.5888888888889" y="528.0" />
+      <point x="-25.111111111111143" y="-103.5" />
+    </edge>
+    <edge source="server.ClientHandler" target="server.ClientListener">
+      <point x="-100.44444444444449" y="-103.5" />
+      <point x="127.25555555555555" y="558.0" />
+      <point x="23.125" y="558.0" />
+      <point x="-69.375" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="346.0" />
+  <SelectedNodes>
+    <node>server.Server</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
